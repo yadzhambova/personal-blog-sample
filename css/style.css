@@ -1,0 +1,323 @@
+html, body, header, p, a, div, img, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../imgs/bgr.png');
+    background-repeat: repeat;
+    border-top: 12px solid #3A3A3A;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+#hello {
+    width: 100%;
+    color: #fff;
+    font-size: 27px;
+    padding-top: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.basic-info {
+    width: 100%;
+    color: #666666;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+a {
+    color: #FFFF33;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CCCCC9;
+}
+
+.horizontal1 {
+    height: 1px;
+    width: 960px;
+    background-color: #232323;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+.horizontal2 {
+    height: 1px;
+    width: 960px;
+    background-color: #232323;
+    margin: 0 auto;
+    margin-top: 1px;
+}
+
+#wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 163px;
+}
+
+.madison-park {
+    margin-top: 23px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.madison-park a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.madison-park a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.madison-park:hover {
+    opacity: 0.8;
+}
+
+.banners {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.banners a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.banners a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.banners:hover {
+    opacity: 0.8;
+}
+
+.bits {
+    display: inline-block;
+}
+
+.bits a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.bits a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.bits:hover {
+    opacity: 0.8;
+}
+
+.wrapper2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.opinionator {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.opinionator a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.opinionator a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.opinionator:hover {
+    opacity: 0.8;
+}
+
+.lens {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.lens a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.lens a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.lens:hover {
+    opacity: 0.8;
+}
+
+.moment {
+    display: inline-block;
+}
+
+.moment a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.moment a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.moment:hover {
+    opacity: 0.8;
+}
+
+.wrapper3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+.custard {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.custard a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.custard a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.custard:hover {
+    opacity: 0.8;
+}
+
+.trickipedia {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.trickipedia a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.trickipedia a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.trickipedia:hover {
+    opacity: 0.8;
+}
+
+.holga {
+    display: inline-block;
+}
+
+.holga a p:first-of-type {
+    color: #666666;
+    text-align: center;
+}
+
+.holga a p:nth-of-type(2) {
+    color: #CCCCC9;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.holga:hover {
+    opacity: 0.8;
+}
+
+.social-posts {
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    color: #666666;
+    font-size: 20px;
+}
+
+.buildings-photos {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 22px;
+
+}
+
+.buildings-photos img {
+    height: 103px;
+    width: 220px;
+    margin-right: 18px;
+}
+
+.buildings-photos img:hover {
+    opacity: 0.8;
+}
+
+footer {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: #666666;
+    font-size: 14px;
+    display: inline-block;
+}
+
+footer p a {
+    color: #fff;
+}
+
+footer p:first-child {
+    margin-right: 262px;
+}
+
+footer p a:hover {
+    color: #666666;
+}
+
+
+
+
