@@ -14,7 +14,7 @@ header {
     width: 100%;
 }
 
-#hello {
+.hello-title {
     width: 100%;
     color: #fff;
     font-size: 27px;
@@ -41,15 +41,11 @@ a:hover {
     color: #CCCCC9;
 }
 
-.horizontal1 {
-    height: 1px;
-    width: 960px;
-    background-color: #232323;
-    margin: 0 auto;
+.content-dividers-wrapper {
     margin-top: 29px;
 }
 
-.horizontal2 {
+.content-divider {
     height: 1px;
     width: 960px;
     background-color: #232323;
@@ -57,9 +53,11 @@ a:hover {
     margin-top: 1px;
 }
 
-#wrapper {
+.projects-wrapper-row {
     width: 100%;
     text-align: center;
+    margin-top: 23px;
+    margin-left: 10px;
 }
 
 img {
@@ -67,203 +65,24 @@ img {
     height: 163px;
 }
 
-.madison-park {
-    margin-top: 23px;
+.project-item-box {
     display: inline-block;
     margin-right: 20px;
 }
 
-.madison-park a p:first-of-type {
+.project-item-box a p:first-of-type {
     color: #666666;
     text-align: center;
 }
 
-.madison-park a p:nth-of-type(2) {
+.project-item-box a p:nth-of-type(2) {
     color: #CCCCC9;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center;
 }
 
-.madison-park:hover {
-    opacity: 0.8;
-}
-
-.banners {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.banners a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.banners a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.banners:hover {
-    opacity: 0.8;
-}
-
-.bits {
-    display: inline-block;
-}
-
-.bits a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.bits a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.bits:hover {
-    opacity: 0.8;
-}
-
-.wrapper2 {
-    width: 100%;
-    text-align: center;
-    margin-top: 22px;
-}
-
-.opinionator {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.opinionator a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.opinionator a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.opinionator:hover {
-    opacity: 0.8;
-}
-
-.lens {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.lens a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.lens a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.lens:hover {
-    opacity: 0.8;
-}
-
-.moment {
-    display: inline-block;
-}
-
-.moment a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.moment a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.moment:hover {
-    opacity: 0.8;
-}
-
-.wrapper3 {
-    width: 100%;
-    text-align: center;
-    margin-top: 22px;
-    margin-bottom: 20px;
-}
-
-.custard {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.custard a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.custard a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.custard:hover {
-    opacity: 0.8;
-}
-
-.trickipedia {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.trickipedia a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.trickipedia a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.trickipedia:hover {
-    opacity: 0.8;
-}
-
-.holga {
-    display: inline-block;
-}
-
-.holga a p:first-of-type {
-    color: #666666;
-    text-align: center;
-}
-
-.holga a p:nth-of-type(2) {
-    color: #CCCCC9;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-}
-
-.holga:hover {
+.project-item-box:hover {
     opacity: 0.8;
 }
 
